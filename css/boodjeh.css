@@ -1,0 +1,90 @@
+body {
+    font-family: "Shabnam";
+    direction: rtl;
+    -webkit-border-radius: 1042px / 776.5px;
+    border-radius: 1042px / 776.5px;
+    overflow-x: hidden;
+    }
+/*body{
+    top: -16px;
+    position: absolute;
+}*/
+canvas {
+    /*background: linear-gradient(*/
+            /*to bottom,*/
+            /*rgba(73,192,240,1) 0%,*/
+            /*rgba(168,231,255,1) 100%*/
+    /*);*/
+    margin-top: -420px;
+    position: relative;
+    z-index: 0;
+}
+.BoxBody {
+    position: relative;
+}
+.BoxBody p {
+    font-size: 17px;
+    color: #63240b;
+
+}
+.BoxBody2 {
+    border: none !important;
+    background: none !important;
+}
+.BoxBody p {
+
+    margin: auto;
+}
+.bodje-style{
+    padding: 30px;
+    /*
+    background-image: radial-gradient(closest-side at center center, rgb(174, 202, 233) 0%, rgb(171, 195, 228) 10%, rgb(178, 195, 216) 20%, rgb(178, 194, 216) 20%, rgb(170, 192, 219) 66%, rgb(205, 211, 219) 76%, rgb(211, 226, 233) 86%, rgb(199, 214, 233) 93%, rgb(207, 215, 226) 100%);
+    */
+}
+.aBoxBody{
+    background: #eef1ffad;
+    display: block;
+    padding: 40px 5px;
+    border-radius: 50%;
+}
+.aBoxBody p{
+    margin-top: 12px;
+}
+.bodje-style p{
+    position: relative;
+    z-index: 3;
+}
+.f-size-bodje{
+    position: relative;
+    z-index: 3;
+    width: 35%;
+}
+@media (max-width: 767px) {
+    canvas {
+        display: none;
+    }
+    .f-size-bodje{
+        width: 70px;
+        height: auto;
+    }
+    .bodje-style{
+        padding: 20px;
+        background-image: radial-gradient(closest-side at center center, rgb(174, 202, 233) 0%, rgb(171, 195, 228) 10%, rgb(178, 195, 216) 20%, rgb(178, 194, 216) 20%, rgb(170, 192, 219) 66%, rgb(205, 211, 219) 76%, rgb(211, 226, 233) 86%, rgb(199, 214, 233) 93%, rgb(207, 215, 226) 100%);
+    }
+    .dis-tahzib-tab img{
+        top: -16px;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 70px;
+        left: 0;
+    }
+}
+@media (max-width: 500px) {
+    .f-size-bodje{
+        width:50px;
+        height: auto;
+    }
+}
+
+/*fdfdfdfdffdali*/

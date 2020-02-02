@@ -1,0 +1,6 @@
+{
+    "name": "erwina1990/ayan",
+    "require": {
+        "nesbot/carbon": "^1.39"
+    }
+}

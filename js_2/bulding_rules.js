@@ -1,0 +1,1 @@
+satLayer.setVisible(true);

@@ -1,1 +1,3 @@
 
+phpcs:
+  enabled: true
